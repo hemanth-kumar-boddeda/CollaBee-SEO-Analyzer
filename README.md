@@ -1,6 +1,6 @@
 <!-- ## [AI-Summarizer](https://exslym.github.io/AI-Summarizer/)
 
-[![preview](https://github.com/exslym/AI-Summarizer/blob/main/public/preview.jpg)](https://github.com/exslym/AI-Summarizer/) -->
+[![preview](https://github.com/hemanth-kumar-boddeda/CollaBee-SEO-Analyzer/blob/master/public/Screenshot%202024-03-27%20183749.png)](https://github.com/hemanth-kumar-boddeda/CollaBee-SEO-Analyzer) -->
 
 ### This minimalistic cozy color app is an open-source article summarizer that transforms lengthy articles into clear and concise summaries, powered by RapidAPI (limited requests per day).
 
