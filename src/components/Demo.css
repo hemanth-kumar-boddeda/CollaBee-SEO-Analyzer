@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .result-container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  
+  .result-box {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    height: fit-content;
+    width: 100%;
+    transform: translateX(-50%);
+    background-color: rgba(218, 213, 213, 0.616);
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  
+  .app {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .url_input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .url_input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.3);
+  }
+  
+  .black_btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .custom-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .black_btn:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  .copy_btn {
+    margin-left: 10px;
+    color: rgb(224, 155, 65);
+    font-weight: bold;
+    border: none;
+    padding-left: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .copy_btn i {
+    margin-right: 5px;
+    padding-left: 5px;
+  }
+
+  .text-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    color: rgb(224, 155, 65);
+    min-height: 3rem;
+
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .loading-icon {
+    border: 6px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ensure it's above other content */
+  }
+  
+  
