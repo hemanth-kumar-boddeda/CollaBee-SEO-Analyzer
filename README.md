@@ -1,37 +1,45 @@
-<!-- ## [AI-Summarizer](https://exslym.github.io/AI-Summarizer/)
+```markdown
+<h1 align="center">AI-Summarizer 🚀</h1>
 
-[preview](https://github.com/hemanth-kumar-boddeda/CollaBee-SEO-Analyzer/blob/master/public/Screenshot%202024-03-27%20183749.png)](https://github.com/hemanth-kumar-boddeda/CollaBee-SEO-Analyzer)
+<p align="center">Enhance video SEO with AI-generated descriptions, captions, and keywords effortlessly.</p>
 
-### Enhance video SEO with AI-generated descriptions, captions, and keywords effortlessly.
+<p align="center">
+  <a href="https://github.com/hemanth-kumar-boddeda/CollaBee-SEO-Analyzer/blob/master/public/Screenshot%202024-03-27%20183749.png">
+    <img src="https://github.com/hemanth-kumar-boddeda/CollaBee-SEO-Analyzer/blob/master/public/Screenshot%202024-03-27%20183749.png" alt="Preview">
+  </a>
+</p>
 
----
+## Installation
 
-### Installation
-
-```
+```bash
 npm install
 ```
 
-### Start Dev Server
+## Start Dev Server
 
-```
+```bash
 npm start
 ```
 
-### Build Production Version
+## Build Production Version
 
-```
+```bash
 npm run build
 ```
 
-### Deployment on GitHub Pages
+## Deployment on GitHub Pages
 
-```
+```bash
 npm run deploy
 ```
 
----
+## Features
 
-### Features:
+- **React**: JavaScript library for building user interfaces.
+- **Redux Toolkit**: State management library for React applications.
+- **Vite**: Next-generation front-end tooling.
+- **TailwindCSS**: Utility-first CSS framework for quickly building custom designs.
+- **Rapid API**: Integration for accessing various APIs.
+```
 
-`React`   `Redux Toolkit`   `Vite`   `TailwindCSS`   `Rapid API`
+This README provides installation instructions, development commands, deployment steps, and highlights the key features of the AI-Summarizer project. The design aims for consistency and readability, with a centered title, aligned image preview, and organized sections for easy navigation.
