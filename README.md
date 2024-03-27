@@ -1,19 +1,17 @@
-```markdown
-<h1 align="center">AI-Summarizer 🚀</h1>
+# AI-Summarizer 🚀
 
-<p align="center">Enhance video SEO with AI-generated descriptions, captions, and keywords effortlessly.</p>
+Enhance video SEO with AI-generated descriptions, captions, and keywords effortlessly.
 
-<p align="center">
-  <a href="https://github.com/hemanth-kumar-boddeda/CollaBee-SEO-Analyzer/blob/master/public/Screenshot%202024-03-27%20183749.png">
-    <img src="https://github.com/hemanth-kumar-boddeda/CollaBee-SEO-Analyzer/blob/master/public/Screenshot%202024-03-27%20183749.png" alt="Preview">
-  </a>
-</p>
+---
+
+## Preview
+
+![Preview](https://github.com/hemanth-kumar-boddeda/CollaBee-SEO-Analyzer/blob/master/public/Screenshot%202024-03-27%20183749.png)
 
 ## Installation
 
 ```bash
 npm install
-```
 
 ## Start Dev Server
 
