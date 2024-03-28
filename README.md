@@ -1,4 +1,4 @@
-# AI-Summarizer 🚀
+# CollaBee-SEO-Analyzer 🚀
 
 Enhance video SEO with AI-generated descriptions, captions, and keywords effortlessly.
 
